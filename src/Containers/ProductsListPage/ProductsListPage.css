@@ -1,0 +1,61 @@
+.page_wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+
+.orders_wrapper {
+  width: 100%;
+  display: flex;
+  padding: 24px 0;
+}
+
+.filter_div {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter_div h3,
+p {
+  margin-bottom: 20px;
+}
+
+.filter_checkbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.filter_checkbox input {
+  margin-right: 12px;
+}
+
+.order-table-wrapper {
+  width: 100%;
+}
+
+.order_table {
+  width: 100%;
+}
+
+.table-header div,
+.table-data div {
+  flex: 1;
+}
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-header h4 {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.table-data div {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+  padding: 12px 24px;
+  font-size: 14px;
+}

@@ -1,0 +1,46 @@
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+.left_menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+}
+
+.logo_wrapper img {
+  width: 24px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.brand_name {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.menu_item {
+  padding: 24px 0 16px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.active_link {
+  color: #20b883;
+  border-bottom: 3px solid #20b883;
+}
